@@ -72,8 +72,7 @@ input, select, textarea {
 	appearance: none;
 }
 
-/* Basic */
-
+ 
 	html {
 		box-sizing: border-box;
 	}
@@ -2575,7 +2574,21 @@ input, select, textarea {
 
 	}
 
-/* Mobile */
+.hall-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 images per row */
+  gap: 20px; /* space between images */
+  text-align: center;
+}
+
+.hall-grid img {
+  width: 350px;      /* fixed width */
+  height: 350px;     /* fixed height */
+  object-fit: cover; /* crops images evenly */
+  border-radius: 8px; /* optional styling */
+  display: block;
+  margin: 0 auto;    /* cent*
+
 
 	@media screen and (max-width: 736px) {
 
