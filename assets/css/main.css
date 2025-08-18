@@ -106,12 +106,12 @@ input, select, textarea {
 		font-size: 19pt;
 		font-weight: 300;
 		line-height: 1.75em;
-		color: #888;
+		color: #000000;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 300;
-		color: #666;
+		color: #000000;
 		line-height: 1.5em;
 	}
 
@@ -2136,7 +2136,7 @@ input, select, textarea {
 			#nav ul li a {
 				display: block;
 				padding: 0.5em 1.5em 0.5em 1.5em;
-				color: #cdd6f4;
+				color: #ffffff;
 				text-decoration: none;
 				outline: 0;
 				border: 0;
@@ -2168,7 +2168,7 @@ input, select, textarea {
 				}
 
 					#nav ul li a.active span:before {
-						color: #e27689;
+						color: #ffffff;
 					}
 
 /* Footer */
@@ -2217,8 +2217,8 @@ input, select, textarea {
 		}
 
 			#main > section.dark {
-				color: #ddd;
-				color: #cdd6f4;
+				color: #000000;
+				color: #000000;
 			}
 
 				#main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6 {
@@ -2246,8 +2246,7 @@ input, select, textarea {
 			}
 
 			#main > section.one {
-				background-color: rgba(32, 32, 32, 0.507);
-				background-image: url("../../images/banner.jpg");
+				background-color: #f5fafa;
 			}
 
 			#main > section.two {
